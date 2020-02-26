@@ -64,7 +64,7 @@ namespace AspNetCore3React
                 if (env.IsDevelopment())
                 {
                     //spa.UseReactDevelopmentServer(npmScript: "start");
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:3000/");
+                    //spa.UseProxyToSpaDevelopmentServer("http://localhost:3000/");
                 }
             });
         }
